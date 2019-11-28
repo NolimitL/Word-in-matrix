@@ -38,6 +38,6 @@ public class MatricksArrays {
         System.out.println("llllllll");
         Symbolmatrix matrixofS = new Symbolmatrix();
         System.out.println("pppppppp");
-        matrixofS.firstsymbol();
+        //matrixofS.firstsymbol();
     }
 }
