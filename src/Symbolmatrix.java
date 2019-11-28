@@ -1,10 +1,10 @@
 public class Symbolmatrix {
-    private WordInMatricks wordInMatricks = new WordInMatricks();
-    private char[] inputarrassymbol = wordInMatricks.getCword(); // Получили массив символов введенного слова
+    private Wordanalys wordanalys = new Wordanalys();
+    private char[] inputarrassymbol = wordanalys.getCword(); // Получили массив символов введенного слова
     char[] allsymbol = new char[]{'q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'};
     //26 символов q w e r t y u i o p a s d f g h j k l z x c v b n m
     int oneof28 = 0;
-    int lenghtofinputcword = wordInMatricks.getLenghtofcword();
+    int lenghtofinputcword = wordanalys.getLenghtofcword();
 
     public void firstsymbol(){
         System.out.println("Start searching...");

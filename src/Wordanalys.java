@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class WordInMatricks { //Выделение одного символа из слова
+public class Wordanalys { //Выделение одного символа из слова
     Scanner in = new Scanner(System.in);
     String word = in.nextLine();
 

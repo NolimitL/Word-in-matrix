@@ -29,12 +29,12 @@ public class MatricksArrays {
         System.out.println("Начальный массив загружен.");
 
         System.out.println("Write your word:");
-        WordInMatricks wordInMatricks = new WordInMatricks();
-        String word = wordInMatricks.getWord();
+        Wordanalys wordanalys = new Wordanalys();
+        String word = wordanalys.getWord();
         System.out.printf("Your word is '%s'\n",word);
-        wordInMatricks.setWord(word);
-        System.out.printf("Lenght of your word is %d symbol\n",wordInMatricks.lenghtofcword);
-        wordInMatricks.numofsymbol();
+        wordanalys.setWord(word);
+        System.out.printf("Lenght of your word is %d symbol\n", wordanalys.lenghtofcword);
+        wordanalys.numofsymbol();
         System.out.println("llllllll");
         Symbolmatrix matrixofS = new Symbolmatrix();
         System.out.println("pppppppp");
