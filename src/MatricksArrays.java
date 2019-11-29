@@ -1,9 +1,18 @@
+import java.util.Scanner;
 
 public class MatricksArrays {
+
+    static Wordanalys wordanalys;
+
+    public MatricksArrays(Wordanalys wordanalys) {
+        this.wordanalys = wordanalys;
+    }
+
     public static void main(String[] agrs) {
+        /*
 //    int val[]; // Определяем массив
 //    val = new int[10]; // Задаем ему !количество! символов или чисел (МАССИВ ИЗ 10 ЧИСЕЛ)
-        /*//
+        //
         byte ik = 5;
         int val[] = new int[ik]; // Либо делаем это в одной строке
         // НО ВСЕ значения в этом массиве пока равны 0 или false или null
@@ -25,12 +34,12 @@ public class MatricksArrays {
 */
         System.out.println("Загрузка начального массива...");
         StartsMatrix startsMatrix = new StartsMatrix();
-        startsMatrix.startsmatrix();
+        startsMatrix.optionsofstartsmatrix();
         System.out.println("Начальный массив загружен.");
 
         System.out.println("Write your word:");
-        Wordanalys wordanalys = new Wordanalys();
-        String word = wordanalys.getWord();
+        //wordanalys(new Scanner(System.in));
+        String word = wordanalys(new Scanner(System.in)).getWord();
         System.out.printf("Your word is '%s'\n",word);
         wordanalys.setWord(word);
         System.out.printf("Lenght of your word is %d symbol\n", wordanalys.lenghtofcword);

@@ -1,6 +1,11 @@
 import java.util.Scanner;
 public class Wordanalys { //Выделение одного символа из слова
-    Scanner in = new Scanner(System.in);
+
+    Scanner in;
+    public Wordanalys(Scanner in) {
+        this.in = in;
+    }
+
     String word = in.nextLine();
 
     int lenghtofword = word.length();
