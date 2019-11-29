@@ -1,11 +1,11 @@
 public class StartsMatrix {  //Начальная матрица
     // Конструктор
-    int line = 4; //Высота
-    int collumn = 28; //Длина
-    int[][] ar = new int[line][collumn]; //Первое число строки, второе столбцы
-    int lineval = 0; // СТРОКИ
-    int collumnval = 0; // СТОЛБЦЫ
-    int kok = 0;
+    private int line = 4; //Высота
+    private int collumn = 28; //Длина
+    private int[][] ar = new int[line][collumn]; //Первое число строки, второе столбцы
+    private int lineval = 0; // СТРОКИ
+    private int collumnval = 0; // СТОЛБЦЫ
+    private int kok = 0;
 
 
     public void optionsofstartsmatrix() {

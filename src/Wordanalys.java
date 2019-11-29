@@ -1,32 +1,26 @@
 import java.util.Scanner;
 public class Wordanalys { //Выделение одного символа из слова
 
-    Scanner in;
-    public Wordanalys(Scanner in) {
-        this.in = in;
-    }
-
-    String word = in.nextLine();
-
-    int lenghtofword = word.length();
+    private char[] cword = getWord().toCharArray(); // ПЕРЕВОД ИЗ СТОРОКИ В МАССИВ СИМВОЛОВ
+    int lenghtofcword = getLenghtofcword();
 
     public String getWord() {
+        Scanner in = new Scanner(System.in);
+        String word = in.nextLine();
         return word;
     }
 
-    public void setWord(String word) {
-        this.word = word;
+    public int getLenghtofword() {
+        int lenghtofword = getWord().length();
+        return lenghtofword;
     }
-
-    private char[] cword = word.toCharArray(); // ПЕРЕВОД ИЗ СТОРОКИ В МАССИВ СИМВОЛОВ
-    int lenghtofcword = lenghtofword;
-
 
     public int getLenghtofcword() {
         return lenghtofcword; // Длина массива символов введенного слова
     }
     public void numofsymbol(){
         System.out.println("Write number of symbol:");
+        Scanner in = new Scanner(System.in);
         int numofsym = in.nextInt();
         if (numofsym > lenghtofcword){
             System.out.printf("FALLED! This is only %d symbol\n",lenghtofcword);
