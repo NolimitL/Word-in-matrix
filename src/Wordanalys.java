@@ -1,29 +1,32 @@
 import java.util.Scanner;
 public class Wordanalys { //Выделение одного символа из слова
 
-    private char[] cword = getWord().toCharArray(); // ПЕРЕВОД ИЗ СТОРОКИ В МАССИВ СИМВОЛОВ
-    int lenghtofcword = getLenghtofcword();
+    private String inpword;     //Введенное слово
+    private char[] cword;       //Массив символов введенного слова
+                //Конструктор
+    public Wordanalys(String word)
+    {
 
-    public String getWord() {
-        Scanner in = new Scanner(System.in);
-        String word = in.nextLine();
-        return word;
+        this.inpword = word;
+        this.cword = word.toCharArray();    // ПЕРЕВОД ИЗ СТОРОКИ В МАССИВ СИМВОЛОВ
+
     }
 
     public int getLenghtofword() {
-        int lenghtofword = getWord().length();
-        return lenghtofword;
+        int lenghtofword = inpword.length();
+        return lenghtofword;    // Длина самого слова
+    }
+    public int getLenghtofwordC() { // +++ !!! Решить вопрос с пробелами !!!
+        int lenghtofwordC = getLenghtofword();
+        return lenghtofwordC;   // Длина массива символов введенного слова
     }
 
-    public int getLenghtofcword() {
-        return lenghtofcword; // Длина массива символов введенного слова
-    }
     public void numofsymbol(){
         System.out.println("Write number of symbol:");
         Scanner in = new Scanner(System.in);
         int numofsym = in.nextInt();
-        if (numofsym > lenghtofcword){
-            System.out.printf("FALLED! This is only %d symbol\n",lenghtofcword);
+        if (numofsym > getLenghtofwordC()){
+            System.out.printf("FALLED! This is only %d symbol\n",getLenghtofwordC());
         }else{
             System.out.println(cword[numofsym-1]);
         }

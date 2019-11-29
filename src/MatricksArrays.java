@@ -33,14 +33,15 @@ public class MatricksArrays {
         System.out.println("Начальный массив загружен.");
 //Wordanalys
         System.out.println("Write your word:");
-        Wordanalys wordanalys = new Wordanalys();
-        String word = wordanalys.getWord();
+        Scanner in = new Scanner(System.in);
+        String word = in.nextLine();
+        Wordanalys wordanalys = new Wordanalys(word);
         System.out.printf("Your word is '%s'\n",word);
-        System.out.printf("Lenght of your word is %d symbol\n", wordanalys.lenghtofcword);
+        System.out.printf("Lenght of your word is %d symbol\n", wordanalys.getLenghtofwordC());
         wordanalys.numofsymbol();
+        System.out.println("The end of yours word analys.");
 //Symbolmatrix
-        System.out.println("llllllll");
-        Symbolmatrix matrixofS = new Symbolmatrix();
+        Symbolmatrix matrixofS = new Symbolmatrix(word);
         System.out.println("pppppppp");
         matrixofS.firstsymbol();
     }

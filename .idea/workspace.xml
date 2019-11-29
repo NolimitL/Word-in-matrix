@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktic/MatricksArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktic/Wordanalys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MatricksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatricksArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartsMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartsMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Wordanalys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordanalys.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575063756706</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="another way to spot a Scanner. i have maked it with single method">
+      <created>1575065774219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575065774219</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add some others files, which i dont know" />
     <MESSAGE value="Trying with errors with expected of methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying with errors with expected of methods" />
+    <MESSAGE value="another way to spot a Scanner. i have maked it with single method" />
+    <option name="LAST_COMMIT_MESSAGE" value="another way to spot a Scanner. i have maked it with single method" />
   </component>
 </project>
