@@ -1,4 +1,5 @@
 public class Symbolmatrix {
+    
     private Wordanalys wordanalys = new Wordanalys();
     private char[] inputarrassymbol = wordanalys.getCword(); // Получили массив символов введенного слова
     char[] allsymbol = new char[]{'q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'};
