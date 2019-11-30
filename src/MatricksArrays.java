@@ -27,10 +27,10 @@ public class MatricksArrays {
 
 */
 //StartsMatrix
-        System.out.println("Загрузка начального массива...");
+        System.out.println("Loading a initial array...");
         StartsMatrix startsMatrix = new StartsMatrix();
         startsMatrix.optionsofstartsmatrix();
-        System.out.println("Начальный массив загружен.");
+        System.out.println("Initial array is loaded.");
 //Wordanalys
         System.out.println("Write your word:");
         Scanner in = new Scanner(System.in);
@@ -42,7 +42,6 @@ public class MatricksArrays {
         System.out.println("The end of yours word analys.");
 //Symbolmatrix
         Symbolmatrix matrixofS = new Symbolmatrix(word);
-        System.out.println("pppppppp");
-        matrixofS.firstsymbol();
+        matrixofS.searchsymbolinarray();
     }
 }

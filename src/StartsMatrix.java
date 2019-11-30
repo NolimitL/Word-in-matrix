@@ -9,8 +9,8 @@ public class StartsMatrix {  //Начальная матрица
 
 
     public void optionsofstartsmatrix() {
-        System.out.printf("Высота = %d\n", ar.length);
-        System.out.printf("Длина = %d\n", ar[0].length);
+        System.out.printf("Height = %d\n", ar.length);
+        System.out.printf("Length = %d\n", ar[0].length);
 
         for (; lineval < ar.length/*измеряет высоту в двухмерном массиве*/; lineval++) {
             for (; collumnval < ar[lineval].length/*измерет длину в двухмерноммассиве*/; collumnval++) {

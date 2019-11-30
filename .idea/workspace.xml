@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
+    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="It work! Next step is writing for every symbol a matryx symbol">
+      <change afterPath="$PROJECT_DIR$/src/EverySymbolMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MatricksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatricksArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StartsMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartsMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wordanalys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordanalys.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +30,11 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1ToAwiAswAfZSR9jetRe290hxZL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="D:/Programming/Git/bin/git.exe" />
@@ -40,18 +44,6 @@
     <option name="myCommands">
       <command value="?" />
       <command value="open" />
-    </option>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
     </option>
   </component>
   <component name="RunManager" selected="Application.MatricksArrays">
@@ -84,6 +76,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="" />
@@ -113,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575065774219</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;Well done problem with count Scanner !@ Next Step.. Word input to Matrix">
+      <created>1575070550502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575070550502</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +144,38 @@
     <MESSAGE value="Add some others files, which i dont know" />
     <MESSAGE value="Trying with errors with expected of methods" />
     <MESSAGE value="another way to spot a Scanner. i have maked it with single method" />
-    <option name="LAST_COMMIT_MESSAGE" value="another way to spot a Scanner. i have maked it with single method" />
+    <MESSAGE value="&#10;Well done problem with count Scanner !@ Next Step.. Word input to Matrix" />
+    <MESSAGE value="It work! Next step is writing for every symbol a matryx symbol" />
+    <option name="LAST_COMMIT_MESSAGE" value="It work! Next step is writing for every symbol a matryx symbol" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Inspections" timestamp="1575153002546">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1575153002546" />
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575152968995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575152968995" />
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575153060407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575153060407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575153060407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575153060407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575152216480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575152216480" />
   </component>
 </project>
