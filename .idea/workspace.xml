@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="It work! Next step is writing for every symbol a matryx symbol">
-      <change afterPath="$PROJECT_DIR$/src/EverySymbolMatrix.java" afterDir="false" />
+    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/IExpanding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/WordInMatricks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EverySymbolMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MatricksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatricksArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StartsMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartsMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575070550502</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="It work! Next step is writing for every symbol a matryx symbol">
+      <created>1575153691512</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575153691512</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,10 +162,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1575153002546" />
-    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575152968995">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1575153840461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575152968995" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575153840461" />
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575153689766">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575153689766" />
     <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575153060407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -173,6 +186,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575153699430">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575153699430" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575152216480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

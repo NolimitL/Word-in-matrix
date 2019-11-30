@@ -29,7 +29,7 @@ public class MatricksArrays {
 //StartsMatrix
         System.out.println("Loading a initial array...");
         StartsMatrix startsMatrix = new StartsMatrix();
-        startsMatrix.optionsofstartsmatrix();
+        startsMatrix.optionsOfStartsMatrix();
         System.out.println("Initial array is loaded.");
 //Wordanalys
         System.out.println("Write your word:");
@@ -38,10 +38,10 @@ public class MatricksArrays {
         Wordanalys wordanalys = new Wordanalys(word);
         System.out.printf("Your word is '%s'\n",word);
         System.out.printf("Lenght of your word is %d symbol\n", wordanalys.getLenghtofwordC());
-        wordanalys.numofsymbol();
+        wordanalys.numOfSymbol();
         System.out.println("The end of yours word analys.");
 //Symbolmatrix
         Symbolmatrix matrixofS = new Symbolmatrix(word);
-        matrixofS.searchsymbolinarray();
+        matrixofS.searchSymbolInArray();
     }
 }

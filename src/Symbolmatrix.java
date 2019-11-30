@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Symbolmatrix {
 
     String ourword;
@@ -11,11 +9,11 @@ public class Symbolmatrix {
 
     }
 
-    final char[] allsymbol = new char[]{'q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'};
+    final char[] ALL_SYMBOLS = new char[]{'q','w','e','r','t','y','u','i','o','p','a','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'};
     //26 символов q w e r t y u i o p a s d f g h j k l z x c v b n m
 
 
-    public void searchsymbolinarray(){
+    public void searchSymbolInArray(){
         Wordanalys wordanalys = new Wordanalys(ourword);
         int lenghtofourword = wordanalys.getLenghtofwordC();
         char[] inputarrassymbol = wordanalys.getCword(); // Получили массив символов введенного слова
@@ -32,9 +30,9 @@ public class Symbolmatrix {
         System.out.println("Search introduced symbol in initial array...");
         for (int i = 0; i < lenghtofourword; i++) {
             oneof28 = 0;
-            for (;inputarrassymbol[i] != allsymbol[oneof28];oneof28++){}
-            if (inputarrassymbol[i] == allsymbol[oneof28]) {
-                System.out.printf("%d Symbol is %c = %c and in initial array it is number %d\n", i + 1, inputarrassymbol[i], allsymbol[oneof28], oneof28+1);
+            for (; inputarrassymbol[i] != ALL_SYMBOLS[oneof28]; oneof28++){}
+            if (inputarrassymbol[i] == ALL_SYMBOLS[oneof28]) {
+                System.out.printf("%d Symbol is %c = %c and in initial array it is number %d\n", i + 1, inputarrassymbol[i], ALL_SYMBOLS[oneof28], oneof28+1);
             }
         }
     }

@@ -21,7 +21,7 @@ public class Wordanalys { //Выделение одного символа из 
         return lenghtofwordC;   // Длина массива символов введенного слова
     }
 
-    public void numofsymbol(){
+    public void numOfSymbol(){
         System.out.println("Write number of symbol:");
         Scanner in = new Scanner(System.in);
         int numofsym = in.nextInt();
