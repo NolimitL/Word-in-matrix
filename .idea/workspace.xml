@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/allsymbolqwerty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IExpanding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575155220067</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add enum file">
+      <created>1575240506727</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575240506727</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +170,8 @@
     <MESSAGE value="&#10;Well done problem with count Scanner !@ Next Step.. Word input to Matrix" />
     <MESSAGE value="It work! Next step is writing for every symbol a matryx symbol" />
     <MESSAGE value="Rename const and methods rights" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename const and methods rights" />
+    <MESSAGE value="Add enum file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add enum file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Inspections" timestamp="1575153002546">
@@ -177,10 +182,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575153840461" />
-    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575155218138">
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575240504940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575155218138" />
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575240504940" />
     <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575238055427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -201,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575237369750" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575155223242">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575240516316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575155223242" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575240516316" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575234021001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

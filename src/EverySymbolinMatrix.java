@@ -15,8 +15,9 @@ public class EverySymbolinMatrix {
         this.introducedsymbol = introducedsymbol;
     }
 
-    private char symFirst(){
-        AllSymbolQWERTY allSymbolQWERTY = new AllSymbolQWERTY();
+    public char symFirst(){
+        char[] arr = new char[]{'A','B'};
+        System.out.println(allsymbolqwerty.arr[0]);
         return '0';
     }
 }
