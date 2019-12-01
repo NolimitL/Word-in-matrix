@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IExpanding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktic/WordInMatricks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EverySymbolMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatricksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatricksArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartsMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartsMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/StartsMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IExpanding.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -40,6 +40,9 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="D:/Programming/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunAnythingCache">
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575153691512</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rename const and methods rights">
+      <created>1575155220067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575155220067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +165,8 @@
     <MESSAGE value="another way to spot a Scanner. i have maked it with single method" />
     <MESSAGE value="&#10;Well done problem with count Scanner !@ Next Step.. Word input to Matrix" />
     <MESSAGE value="It work! Next step is writing for every symbol a matryx symbol" />
-    <option name="LAST_COMMIT_MESSAGE" value="It work! Next step is writing for every symbol a matryx symbol" />
+    <MESSAGE value="Rename const and methods rights" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename const and methods rights" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Inspections" timestamp="1575153002546">
@@ -166,33 +177,45 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575153840461" />
-    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575153689766">
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575155218138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575153689766" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575153060407">
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575155218138" />
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575238055427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575153060407">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575238055427" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575238055427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575153060407">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575238055427" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575238055427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575153060407">
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575238055427" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575238055427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575153060407" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575153699430">
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575238055427" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1575237369750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575153699430" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575152216480">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575237369750" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575155223242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575152216480" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575155223242" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575234021001">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575234021001" />
+    <state x="65" y="0" key="new project wizard" timestamp="1575237307644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575237307644" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1575234044799">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1575234044799" />
   </component>
 </project>
