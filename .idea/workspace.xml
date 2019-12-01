@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="Add enum file">
+    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allsymbolqwerty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/allsymbolqwerty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Programming\Git\bin\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -159,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575243166328</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add enum file">
+      <created>1575243237530</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575243237530</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,10 +207,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575153840461" />
-    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575243215672">
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575243861124">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575243215672" />
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575243861124" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1575243468531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575243468531" />
     <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575243039053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -218,10 +235,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575237369750" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575243195885">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575243555392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575243195885" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575243555392" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575234021001">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -230,9 +247,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575237307644" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1575234044799">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1575243832790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1575234044799" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1575243832790" />
   </component>
 </project>
