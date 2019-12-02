@@ -43,5 +43,8 @@ public class MatricksArrays {
 //Symbolmatrix
         Symbolmatrix symbolmatrix = new Symbolmatrix(word);
         symbolmatrix.searchSymbolInArray();
+//Make a final matrix with initial word
+        EverySymbolinMatrix everySymbolinMatrix = new EverySymbolinMatrix(word);
+        everySymbolinMatrix.MakeFinalMatrix();
     }
 }

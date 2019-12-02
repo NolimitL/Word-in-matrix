@@ -32,7 +32,8 @@ public class Symbolmatrix {
             oneof28 = 0;
             for (; inputarrassymbol[i] != ALL_SYMBOLS[oneof28]; oneof28++){}
             if (inputarrassymbol[i] == ALL_SYMBOLS[oneof28]) {
-                System.out.printf("%d Symbol is %c = %c and in initial array it is number %d\n", i + 1, inputarrassymbol[i], ALL_SYMBOLS[oneof28], oneof28+1);
+
+                //System.out.printf("%d Symbol is %c = %c and in initial array it is number %d\n", i + 1, inputarrassymbol[i], ALL_SYMBOLS[oneof28], oneof28+1);
             }
         }
     }

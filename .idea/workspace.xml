@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SymbolBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/EverySymbolinMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/EverySymbolinMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/IExpanding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/MatricksArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/MatricksArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/Symbolmatrix.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MatricksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatricksArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/allsymbolqwerty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/allsymbolqwerty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allsymbolqwerty.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -189,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575243909013</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add array of qwerty-symbol is done">
+      <created>1575322888269</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575322888269</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,53 +226,62 @@
     <MESSAGE value="Rename const and methods rights" />
     <MESSAGE value="Add enum file" />
     <MESSAGE value="Work with enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work with enum" />
+    <MESSAGE value="Add array of qwerty-symbol is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add array of qwerty-symbol is done" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Auto_Import" timestamp="1575326067477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Auto_Import/0.0.1366.728@0.0.1366.728" timestamp="1575326067477" />
     <state x="275" y="22" key="#Inspections" timestamp="1575153002546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1575153002546" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1575322390435">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1575328146342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575322390435" />
-    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575243907947">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575328146342" />
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575328262948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575243907947" />
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575328262948" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1575243468531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575243468531" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575244037512">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575327196813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575244037512" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575244037512">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575327196813" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575327196813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575244037512" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575244037512">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575327196813" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575327196813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575244037512" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575244037512">
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575327196813" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575327196813">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575244037512" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575327196813" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1575237369750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575237369750" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575243918041">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575328380210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575243918041" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575328380210" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575317806410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575317806410" />
+    <state x="464" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1575328354505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="464" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1575328354505" />
     <state x="65" y="0" key="new project wizard" timestamp="1575237307644">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

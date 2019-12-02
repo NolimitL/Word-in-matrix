@@ -1,11 +1,15 @@
 public class EverySymbolinMatrix {
     char[] introducedsymbol;
+    String inputword;
 
-    public EverySymbolinMatrix(char[] introducedsymbol) {
-        this.introducedsymbol = introducedsymbol;
+    public EverySymbolinMatrix(String inputword) {
+        this.inputword = inputword;
     }
 
-    public void symFirst(){
-        System.out.println(allsymbolqwerty.A);
+    public void MakeFinalMatrix(){
+        Wordanalys wordanalys = new Wordanalys(inputword);
+        introducedsymbol = wordanalys.getCword();
+
+
     }
 }
