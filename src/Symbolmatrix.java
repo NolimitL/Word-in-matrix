@@ -2,10 +2,10 @@ public class Symbolmatrix {
 
     String ourword;
 
-    public Symbolmatrix(String word)
+    public Symbolmatrix(String inputword)
     {
 
-        this.ourword = word;
+        this.ourword = inputword;
 
     }
 
@@ -36,5 +36,7 @@ public class Symbolmatrix {
             }
         }
     }
+
+
 }
 
