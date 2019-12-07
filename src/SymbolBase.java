@@ -208,14 +208,18 @@ public class SymbolBase {
                     {'Z', 'Z', 'Z', 'Z', 'Z'}
             };
 
-    char[][] sym;
+    public char[][] getSymZ() {
+        return symZ;
+    }
 
-    public SymbolBase(char[][] sym) {
+    public static char sym;
+    public SymbolBase(char sym) {
         this.sym = sym;
     }
 
-    public char[][] getSym() {
-        
-        return sym;
+    public static void CompareOfSym() {
+        if (sym == 's') {
+            sym
+        }
     }
 }
