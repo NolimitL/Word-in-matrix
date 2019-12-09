@@ -41,7 +41,10 @@ public class MatricksArrays {
         wordanalys.numOfSymbol();
         System.out.println("The end of yours word analys.");
 //Symbolmatrix
-        Symbolmatrix matrixofS = new Symbolmatrix(word);
-        matrixofS.searchSymbolInArray();
+        Symbolmatrix symbolmatrix = new Symbolmatrix(word);
+        symbolmatrix.searchSymbolInArray();
+//Make a final matrix with initial word
+        EverySymbolinMatrix everySymbolinMatrix = new EverySymbolinMatrix(word);
+        everySymbolinMatrix.MakeFinalMatrix();
     }
 }

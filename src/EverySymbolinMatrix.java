@@ -1,23 +1,16 @@
 public class EverySymbolinMatrix {
     char[] introducedsymbol;
+    String inputword;
 
-    private char[][] symQ = new char[][]
-            {
-                    {'q','q','q','q',' '},
-                    {'q',' ',' ','q',' '},
-                    {'q',' ',' ','q',' '},
-                    {'q',' ','q','q',' '},
-                    {'q','q','q','q','q'}
-            };
-
-
-    public EverySymbolinMatrix(char[] introducedsymbol) {
-        this.introducedsymbol = introducedsymbol;
+    public EverySymbolinMatrix(String inputword) {
+        this.inputword = inputword;
     }
 
-    public char symFirst(){
-        char[] arr = new char[]{'A','B'};
-        System.out.println(allsymbolqwerty.arr[0]);
-        return '0';
+    public void MakeFinalMatrix(char sym){
+        Wordanalys wordanalys = new Wordanalys(inputword);
+        introducedsymbol = wordanalys.getCword();
+        int lengntOfArrSym = wordanalys.getLenghtofwordC();
+        SymbolBase symbolBase = new SymbolBase(sym);
+
     }
 }

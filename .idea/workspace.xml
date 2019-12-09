@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="Add enum file">
+    <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SymbolBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SymbolBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +16,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Programming\Git\bin\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -159,7 +165,42 @@
       <option name="project" value="LOCAL" />
       <updated>1575243166328</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add enum file">
+      <created>1575243237530</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575243237530</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Work with enum">
+      <created>1575243862323</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575243862323</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Work with enum">
+      <created>1575243909013</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575243909013</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add array of qwerty-symbol is done">
+      <created>1575322888269</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575322888269</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ending in two steps">
+      <created>1575678282879</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575678282879</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,56 +224,71 @@
     <MESSAGE value="It work! Next step is writing for every symbol a matryx symbol" />
     <MESSAGE value="Rename const and methods rights" />
     <MESSAGE value="Add enum file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add enum file" />
+    <MESSAGE value="Work with enum" />
+    <MESSAGE value="Add array of qwerty-symbol is done" />
+    <MESSAGE value="Ending in two steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ending in two steps" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Auto_Import" timestamp="1575326067477">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Auto_Import/0.0.1366.728@0.0.1366.728" timestamp="1575326067477" />
     <state x="275" y="22" key="#Inspections" timestamp="1575153002546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1575153002546" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1575153840461">
+    <state x="615" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1575678207491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575153840461" />
-    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575243215672">
+    <state x="615" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575678207491" />
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575678281082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575243215672" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575243039053">
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1575678281082" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1575243468531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575243039053" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575243039053">
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575243468531" />
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575678299653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575243039053" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575243039052">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575678299653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575243039052" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575243039053">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575678299653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575243039053" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575678299653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1575237369750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575237369750" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575243195885">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575678287138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575243195885" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575234021001">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575678287138" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1575930194721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575234021001" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1575930194721" />
+    <state x="464" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1575328354505">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="464" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1575328354505" />
     <state x="65" y="0" key="new project wizard" timestamp="1575237307644">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575237307644" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1575234044799">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1575675366756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1575234044799" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1575675366756" />
   </component>
 </project>
