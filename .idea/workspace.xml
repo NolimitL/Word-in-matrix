@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatricksArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatricksArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SymbolBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SymbolBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +77,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Praktic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MatricksArrays" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Return" />
         <item itemvalue="Application.TextFunction" />
       </list>
@@ -238,10 +249,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1575153002546" />
-    <state x="615" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1575678207491">
+    <state x="615" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1575934803209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="615" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575678207491" />
+    <state x="615" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575934803209" />
     <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1575678281082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -250,22 +261,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1575243468531" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575678299653">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1575935738416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575678299653">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575935738416" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1575935738416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575678299653">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575935738416" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1575935738415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575678299653">
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575935738415" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1575935738416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575678299653" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575935738416" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1575237369750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -286,6 +297,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1575237307644" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1575933276184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1575933276184" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1575675366756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

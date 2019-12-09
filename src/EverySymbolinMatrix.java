@@ -6,11 +6,11 @@ public class EverySymbolinMatrix {
         this.inputword = inputword;
     }
 
-    public void MakeFinalMatrix(char sym){
+    public void MakeFinalMatrix(char sym, int numofsym){
         Wordanalys wordanalys = new Wordanalys(inputword);
         introducedsymbol = wordanalys.getCword();
         int lengntOfArrSym = wordanalys.getLenghtofwordC();
-        SymbolBase symbolBase = new SymbolBase(sym);
-
+        SymbolBase symbolBase = new SymbolBase(sym, numofsym);
+        symbolBase.MakeEndMatrix();
     }
 }
