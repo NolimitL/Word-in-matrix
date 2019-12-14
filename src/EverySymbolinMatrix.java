@@ -9,11 +9,11 @@ public class EverySymbolinMatrix {
         this.introducedsymbol = introducedsymbol;
     }
 
-    public char[] MakeFinalMatrix(int numofsym) {
+    public char[] MakeFinalMatrix(int numofsym, int amountofline, int lenghtArraysC) {
         char[] line = new char[0];
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < lenghtArraysC; i++) {
             SymbolBase symbolBase = new SymbolBase(numofsym);
-            line = symbolBase.getOneStringMatrix(i);
+            line = symbolBase.getOneStringMatrix(amountofline);
         }
         return line;
 

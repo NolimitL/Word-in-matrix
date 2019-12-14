@@ -15,13 +15,13 @@ public class Symbolmatrix {
 
     public void searchSymbolInArray(){
         Wordanalys wordanalys = new Wordanalys(ourword);
-        int lenghtofourword = wordanalys.getLenghtofwordC();
+        int lenghtofourCword = wordanalys.getLenghtofwordC();
         char[] inputarrassymbol = wordanalys.getCword(); // Получили массив символов введенного слова
 
         System.out.println("Start searching...");
-        for (int k = 0; k < lenghtofourword; k++) {
+        for (int k = 0; k < lenghtofourCword; k++) {
             System.out.print(inputarrassymbol[k]);
-            if (k < lenghtofourword-1){
+            if (k < lenghtofourCword-1){
                 System.out.print("-");
             }
         }
@@ -29,13 +29,17 @@ public class Symbolmatrix {
         System.out.println();
         System.out.println("Search introduced symbol in initial array...");
         EverySymbolinMatrix everySymbolinMatrix = new EverySymbolinMatrix(ourword, ALL_SYMBOLS);
-        for (int i = 0; i < lenghtofourword; i++) {
-            oneof28 = 0;
-            for (; inputarrassymbol[i] != ALL_SYMBOLS[oneof28]; oneof28++){}
-            if (inputarrassymbol[i] == ALL_SYMBOLS[oneof28]) {
-                //System.out.printf("%d Symbol is %c = %c and in initial array it is number %d\n", i + 1, inputarrassymbol[i], ALL_SYMBOLS[oneof28], oneof28+1);
-                System.out.println(everySymbolinMatrix.MakeFinalMatrix(oneof28));
+        for (int k = 0; k < 5; k++) {
+            for (int i = 0; i < lenghtofourCword; i++) {
+                oneof28 = 0;
+                for (; inputarrassymbol[i] != ALL_SYMBOLS[oneof28]; oneof28++) {
+                }
+                if (inputarrassymbol[i] == ALL_SYMBOLS[oneof28]) {
+                    //System.out.printf("%d Symbol is %c = %c and in initial array it is number %d\n", i + 1, inputarrassymbol[i], ALL_SYMBOLS[oneof28], oneof28+1);
+                    System.out.print(everySymbolinMatrix.MakeFinalMatrix(oneof28, k, lenghtofourCword));
+                }
             }
+            System.out.println();
         }
     }
 }

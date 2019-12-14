@@ -200,10 +200,10 @@ public class SymbolBase {
     char[] line1 = new char[] {'q','r'};
     char[][] line2 = new char[][] { {'q','q'},{'w','w'},{'r','r'}};
     char[][][] line3 = new char[][][] { { {'q','Q'},{'q','Q'} },{{'w','W'},{'w','W'}},{{'r','R'},{'r','R'}}};
-    int t = line3[0][1].length;
+    int t = line3[0][0].length;
      */
-    public static char[] getOneStringMatrix(int i){
-        char[] line = alphasym[numberofSym][i];
+    public static char[] getOneStringMatrix(int amountofline){
+        char[] line = alphasym[numberofSym][amountofline];
         return line;
     }
 
