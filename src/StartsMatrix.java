@@ -12,8 +12,8 @@ public class StartsMatrix {  //Начальная матрица
         System.out.printf("Height = %d\n", ar.length);
         System.out.printf("Length = %d\n", ar[0].length);
 
-        for (; lineval < ar.length/*измеряет высоту в двухмерном массиве*/; lineval++) {
-            for (; collumnval < ar[lineval].length/*измерет длину в двухмерноммассиве*/; collumnval++) {
+        for (; lineval < ar.length/*Measure a high in two-dimensional arrays*/; lineval++) {
+            for (; collumnval < ar[lineval].length/*Measure a length in two-dimensional arrays*/; collumnval++) {
                 ar[lineval][collumnval] = KOK;
                 System.out.printf("%d ", KOK);
             }

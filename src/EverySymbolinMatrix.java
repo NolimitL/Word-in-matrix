@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class EverySymbolinMatrix {
     char[] introducedsymbol;
@@ -16,22 +15,5 @@ public class EverySymbolinMatrix {
             line = symbolBase.getOneStringMatrix(amountofline);
         }
         return line;
-
-        /*Wordanalys wordanalys = new Wordanalys(inputword);
-        int lengntOfArrSym = wordanalys.getLenghtofwordC();
-
-        char[] inputarrassymbol = wordanalys.getCword();
-        SymbolBase symbolBase = new SymbolBase(numofsym);
-        for (int g = 0; g < 5; g++) {
-            for (int i = 0; i < wordanalys.getLenghtofwordC(); i++) {
-                int oneof28 = 0;
-                for (; inputarrassymbol[i] != introducedsymbol[oneof28]; oneof28++) { }
-                if (inputarrassymbol[i] == introducedsymbol[oneof28]) {
-
-                }
-
-            }
-        }*/
     }
-
 }

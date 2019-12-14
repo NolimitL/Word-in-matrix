@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ce3c255f-6261-46a8-a593-6c4db6037197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktic/SymbolBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktic/SymbolBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverySymbolinMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StartsMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartsMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SymbolBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SymbolBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Symbolmatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Symbolmatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wordanalys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wordanalys.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575935819253</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="IT is work!!! It's done)))">
+      <created>1576330223811</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576330223811</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +255,8 @@
     <MESSAGE value="Add array of qwerty-symbol is done" />
     <MESSAGE value="Ending in two steps" />
     <MESSAGE value="long time ago" />
-    <option name="LAST_COMMIT_MESSAGE" value="long time ago" />
+    <MESSAGE value="IT is work!!! It's done)))" />
+    <option name="LAST_COMMIT_MESSAGE" value="IT is work!!! It's done)))" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Auto_Import" timestamp="1575326067477">
@@ -264,10 +275,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="615" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1576192052421" />
-    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1576280279867">
+    <state x="235" y="0" key="CommitChangelistDialog2" timestamp="1576330221733">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576280279867" />
+    <state x="235" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576330221733" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1575243468531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -308,10 +319,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575237369750" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1575935821789">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1576330227092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1575935821789" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576330227092" />
     <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1576191118831">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

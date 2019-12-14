@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class Wordanalys { //Выделение одного символа из слова
+public class Wordanalys { //Highlighting one symbol in introduced word
 
-    private String inpword;     //Введенное слово
-    private char[] cword;       //Массив символов введенного слова
-                //Конструктор
-    public Wordanalys(String word)
+    private String inpword;     //Inputted word
+    private char[] cword;
+
+    public Wordanalys(String word) //Constructor
     {
 
         this.inpword = word;

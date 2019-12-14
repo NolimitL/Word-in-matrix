@@ -195,28 +195,9 @@ public class SymbolBase {
     public SymbolBase(int numberofSym) {
         this.numberofSym = numberofSym;
     }
-    // Одна переменная с тройной матрицей будет имееть все символы и передавать в эту конструкцию еще и индекс буквы и по нему выдавать и матрицы значение под таким же номером
-    /*
-    char[] line1 = new char[] {'q','r'};
-    char[][] line2 = new char[][] { {'q','q'},{'w','w'},{'r','r'}};
-    char[][][] line3 = new char[][][] { { {'q','Q'},{'q','Q'} },{{'w','W'},{'w','W'}},{{'r','R'},{'r','R'}}};
-    int t = line3[0][0].length;
-     */
+
     public static char[] getOneStringMatrix(int amountofline){
         char[] line = alphasym[numberofSym][amountofline];
         return line;
     }
-
-
-/*    public static char[][] getOneSymbolMatrix(char c) {
-        for (int i = 0; i < alphasym.length; i++) {
-            for (int j = 0; j < alphasym[i][0].length; j++) {
-                if (Character.toLowerCase(alphasym[i][0][j]) == Character.toLowerCase(c)) {
-                    return alphasym[i];
-                }
-            }
-        }
-        return null;
-    }
-*/
 }
